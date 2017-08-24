@@ -1,6 +1,6 @@
 ## description
 
-get npm version
+get npm package version
 
 ## API
 
