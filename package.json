@@ -1,5 +1,5 @@
 {
-  "name": "get-package-version",
+  "name": "get-npm-package-version",
   "version": "1.0.0",
   "description": "get npm package version",
   "main": "index.js",
@@ -13,13 +13,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hoperyy/get-npm-version.git"
+    "url": "git+https://github.com/hoperyy/get-npm-package-version.git"
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hoperyy/get-npm-version/issues"
+    "url": "https://github.com/hoperyy/get-npm-package-version/issues"
   },
-  "homepage": "https://github.com/hoperyy/get-npm-version",
-  "author": "https://github.com/hoperyy",
-  "license": "ISC"
+  "homepage": "https://github.com/hoperyy/get-npm-package-version",
+  "author": "https://github.com/hoperyy"
 }
