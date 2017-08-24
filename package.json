@@ -1,0 +1,16 @@
+{
+  "name": "get-package-version",
+  "version": "1.0.0",
+  "description": "get npm package version",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "package",
+    "version"
+  ],
+  "author": "https://github.com/hoperyy",
+  "license": "ISC"
+}
