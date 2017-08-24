@@ -11,6 +11,15 @@
     "package",
     "version"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoperyy/get-npm-version.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoperyy/get-npm-version/issues"
+  },
+  "homepage": "https://github.com/hoperyy/get-npm-version",
   "author": "https://github.com/hoperyy",
   "license": "ISC"
 }
