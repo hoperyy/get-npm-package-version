@@ -1,0 +1,24 @@
+{
+  "name": "get-npm-package-version",
+  "version": "1.0.3",
+  "description": "get npm package version",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "package",
+    "version"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoperyy/get-npm-package-version.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoperyy/get-npm-package-version/issues"
+  },
+  "homepage": "https://github.com/hoperyy/get-npm-package-version",
+  "author": "https://github.com/hoperyy"
+}
