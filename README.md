@@ -5,7 +5,11 @@ get npm package version
 ## API
 
 ```
-const version = require('get-package-version')(packageName[, { registry, timeout }]);
+npm i get-npm-package-version
+```
+
+```
+const version = require('get-npm-package-version')(packageName[, { registry, timeout }]);
 ```
 
 +   `packageName`
