@@ -1,34 +1,29 @@
-module.exports = function(packageName, {registry = '', timeout = null} = {}) {
+module.exports = function (packageName, { registry = '', timeout = null } = {}) {
 
     try {
-
         let version;
 
-        if (registry) {
+        const config = {
+            stdio: ['pipe', 'pipe', 'ignore']
+        };
 
-            if (timeout) {
-                version = require('child_process').execSync(`npm view ${packageName} version --registry ${registry}`, {
-                    timeout: timeout
-                });
-            } else {
-                version = require('child_process').execSync(`npm view ${packageName} version --registry ${registry}`);
-            }
-
-        } else {
-
-            if (timeout) {
-                version = require('child_process').execSync(`npm view ${packageName} version`, {
-                    timeout: timeout
-                });
-            } else {
-                version = require('child_process').execSync(`npm view ${packageName} version`);
-            }
-
+        if (timeout) {
+            config.timeout = timeout;
         }
 
-        return version.toString().trim().replace(/^\n*/, '').replace(/\n*$/, '');
+        if (registry) {
+            version = require('child_process').execSync(`npm view ${packageName} version --registry ${registry}`, config);
+        } else {
+            version = require('child_process').execSync(`npm view ${packageName} version`, config);
+        }
 
-    } catch(err) {
+        if (version) {
+            return version.toString().trim().replace(/^\n*/, '').replace(/\n*$/, '');
+        } else {
+            return null;
+        }
+
+    } catch (err) {
         return null;
     }
 
