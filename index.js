@@ -23,7 +23,7 @@ module.exports = function (packageName, { registry = '', timeout = null } = {}) 
             return null;
         }
 
-    } catch (err) {
+    } catch(err) {
         return null;
     }
 
