@@ -1,5 +1,4 @@
 module.exports = function (packageName, { registry = '', timeout = null } = {}) {
-
     try {
         let version;
 
@@ -26,5 +25,4 @@ module.exports = function (packageName, { registry = '', timeout = null } = {}) 
     } catch(err) {
         return null;
     }
-
 }
