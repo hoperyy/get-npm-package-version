@@ -4,7 +4,6 @@
   "description": "get npm package version",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint bin/** core/** index.js",
     "test": "mocha --recursive",
     "coverage": "istanbul cover _mocha test/*"
   },
