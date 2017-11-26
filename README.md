@@ -1,4 +1,4 @@
-[![Npm Version](https://img.shields.io/badge/npm-%3E%3D%206.9.1-green.svg)](https://nodejs.org/en/) [![Build Status](https://travis-ci.org/hoperyy/get-npm-package-version.svg?branch=master)](https://travis-ci.org/hoperyy/get-npm-package-version)
+[![Npm Version](https://img.shields.io/badge/npm-%3E%3D%206.9.1-brightgreen.svg)](https://nodejs.org/en/) [![Build Status](https://travis-ci.org/hoperyy/get-npm-package-version.svg?branch=master)](https://travis-ci.org/hoperyy/get-npm-package-version)
 
 ## description
 
