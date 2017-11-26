@@ -1,0 +1,4 @@
+sudo: false
+dist: 
+language: node_js
+script: npm run coverage
