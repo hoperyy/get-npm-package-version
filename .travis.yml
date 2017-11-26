@@ -1,4 +1,5 @@
 sudo: false
-dist: 
 language: node_js
 script: npm run coverage
+node_js:
+  - "6.9.1"

@@ -28,6 +28,9 @@
     "istanbul": "^0.4.5",
     "mocha": "^3.5.3"
   },
+  "engines": {
+    "node": ">=6.9.2"
+  },
   "homepage": "https://github.com/hoperyy/get-npm-package-version",
   "author": "https://github.com/hoperyy"
 }
