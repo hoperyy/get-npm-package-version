@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/hoperyy/get-npm-package-version.svg?branch=master)](https://travis-ci.org/hoperyy/get-npm-package-version)
+
 ## description
 
 get npm package version
