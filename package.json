@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --recursive",
-    "coverage": "istanbul cover _mocha test/*"
+    "coverage": "cat ./coverage/lcov.info | coveralls"
   },
   "keywords": [
     "npm",
@@ -22,6 +22,7 @@
   },
   "devDependencies": {
     "chai": "^4.1.2",
+    "coveralls": "^3.0.0",
     "eslint": "^4.7.2",
     "eslint-config-airbnb-base": "^12.0.0",
     "eslint-plugin-import": "^2.7.0",

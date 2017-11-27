@@ -1,5 +1,5 @@
 sudo: false
 language: node_js
-script: npm run coverage
+script: npm run test
 node_js:
   - "6.9.1"
