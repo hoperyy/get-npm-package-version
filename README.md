@@ -30,3 +30,7 @@ const version = require('get-npm-package-version')(packageName[, { registry, tim
 
 +   return `null` when timeout or error happens
 +   return version when getting version successfully
+
+## LICENSE
+
+MIT
