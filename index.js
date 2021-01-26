@@ -1,5 +1,8 @@
 module.exports = function (packageName, { registry = '', timeout = null } = {}) {
     try {
+        if (/[`$&{}[;|]/g.test(packageName) || /[`$&{}[;|]/g.test(registry)) {
+            return null
+        }
         let version;
 
         const config = {
