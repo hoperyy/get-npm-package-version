@@ -20,7 +20,7 @@ const getNpmPkgVersion = function (packageName, { registry = '', timeout = null 
         }
 
         if (version) {
-            return version.toString().trim().replace(/^\n*/, '').replace(/\n*$/, '');
+            return version.toString().trim().replace(/^\n*|\n*$/g, '');
         } else {
             return null;
         }
