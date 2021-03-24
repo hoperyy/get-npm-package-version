@@ -4,7 +4,9 @@
   "description": "get npm package version",
   "main": "index.js",
   "scripts": {
-    "test": "istanbul cover _mocha test/*",
+    "test": "npm run test:unit && npm run test:tsd",
+    "test:unit": "istanbul cover _mocha test/*",
+    "test:tsd": "tsd",
     "coverage": "cat ./coverage/lcov.info | coveralls"
   },
   "keywords": [
@@ -14,6 +16,7 @@
   ],
   "files": [
     "index.js",
+    "index.d.ts",
     "README.md"
   ],
   "repository": {
@@ -31,7 +34,8 @@
     "eslint-config-airbnb-base": "^12.0.0",
     "eslint-plugin-import": "^2.7.0",
     "istanbul": "^0.4.5",
-    "mocha": "^3.5.3"
+    "mocha": "^3.5.3",
+    "tsd": "^0.14.0"
   },
   "engines": {
     "node": ">=6.9.2"
