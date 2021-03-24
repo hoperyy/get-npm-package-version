@@ -19,7 +19,8 @@
   "files": [
     "index.js",
     "index.d.ts",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
   "repository": {
     "type": "git",
@@ -41,7 +42,7 @@
     "tsd": "^0.14.0"
   },
   "engines": {
-    "node": ">=6.9.2"
+    "node": ">=10"
   },
   "homepage": "https://github.com/hoperyy/get-npm-package-version",
   "author": "https://github.com/hoperyy"
