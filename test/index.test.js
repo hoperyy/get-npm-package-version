@@ -25,3 +25,9 @@ describe('test webpack and webpackxxx', () => {
         expect(version).to.be.equal(null);
     }).timeout(10 * 1000);
 });
+
+describe('export', () => {
+    it('named getNpmPkgVersion export refers to default', () => {
+        expect(getVersion).to.be.eq(getVersion.getNpmPkgVersion);
+    });
+})

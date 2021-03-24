@@ -1,4 +1,4 @@
-module.exports = function (packageName, { registry = '', timeout = null } = {}) {
+const getNpmPkgVersion = function (packageName, { registry = '', timeout = null } = {}) {
     try {
         if (/[`$&{}[;|]/g.test(packageName) || /[`$&{}[;|]/g.test(registry)) {
             return null
@@ -29,3 +29,7 @@ module.exports = function (packageName, { registry = '', timeout = null } = {}) 
         return null;
     }
 }
+
+getNpmPkgVersion.getNpmPkgVersion = getNpmPkgVersion // Named export
+
+module.exports = getNpmPkgVersion
