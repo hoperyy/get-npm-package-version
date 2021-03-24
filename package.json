@@ -12,6 +12,10 @@
     "package",
     "version"
   ],
+  "files": [
+    "index.js",
+    "README.md"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hoperyy/get-npm-package-version.git"
