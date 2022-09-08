@@ -2,7 +2,7 @@
 
 const getNpmPkgVersion = function (packageName, { registry = '', timeout = null } = {}) {
   try {
-    if (/[`$&{}[;|]/g.test(packageName) || /[`$&{}[;|]/g.test(registry)) {
+    if (/[`$&{}[;|<>#\n \t()]/g.test(packageName) || /[`$&{}[;|<>#\n \t()]/g.test(registry)) {
       return null;
     }
     let version;
